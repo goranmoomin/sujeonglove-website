@@ -1,0 +1,2289 @@
+@charset "utf-8";
+
+/*전체구조*/
+.nav{}
+
+/*가운데 정렬*/
+.container{width:1700px; margin:0 auto;}
+
+/*가운데 정렬2*/
+.contain{width:1920px; margin:0 auto;}
+
+/*가운데 정렬3*/
+.container2{padding-bottom:30px; width:1400px; margin:0 auto;}
+
+/*로고*/
+.logo{position:fixed; top:53px; left:103px; z-index:3; width:80px;}
+
+/*내비게이션*/
+.nav{margin-top:50px;}
+
+.nav ul{position:fixed; top:53px; right:102px; z-index:3;}
+
+.nav ul li{margin-bottom:20px;}
+.nav ul li:last-child{margin-bottom:0px;}
+
+.nav ul li a{display:block; font-size:20px; font-weight:900; color:#000; transition:all 0.3s; font-weight:600;}
+.nav ul li a:hover{display:block; font-size:20px; font-weight:900; color:#5685f4; font-weight:600;}
+
+/*메인*/
+.main{margin-top:-178px; margin-left:0.5px; position:relative; z-index:-1;}
+
+/*글자*/
+.name{position:absolute; top:800px; left:100px; z-index:9999; color:#5685f4;}
+.name p{display:block; font-size:80px; font-family: 'Noto Sans KR', sans-serif;}
+.name a{display:block; font-size:50px; font-family: 'Noto Sans KR', sans-serif; color:#5685f4; -webkit-background-clip:text; -webkit-text-fill-color:transparent;  -webkit-text-stroke: 2px #5685f4;}
+
+/*메인2*/
+.main2{position:absolute; top:0; left:0; width:100%; height:88.5vh; background:#fff; z-index:2; opacity:0;}
+
+/*어바웃*/
+.about{margin-top:100px; padding-bottom:70px; margin-bottom:100px; overflow:hidden;}
+
+/*어바웃 소제목*/
+.about h2{display:block; font-size:90px; font-weight:600; font-family: 'Noto Sans KR', sans-serif; background: linear-gradient(90deg, rgba(255,180,180,1) 0%, rgba(192,240,255,1) 15%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-bottom:130px;}
+
+/*어바웃 박스*/
+.about_box{clear:both; width:1300px; position:relative; margin:0 auto; padding-bottom:80px;}
+
+/*빵*/
+.bread{position:absolute; top:-20px; left:-80px; display:block; width:240px; height:60px; background:linear-gradient(270deg, rgba(255,141,177,1) 0%, rgba(254,109,157,1) 100%); transform:rotate(-30deg); z-index:2;}
+
+/*빵 글자*/
+.bread a{display:block; width:240px; height:40px; text-align:center; color:#fff; font-weight:600; line-height:40px; font-size:25px; margin:8px 0; border-top:2px solid #fff; border-bottom:2px solid #fff;}
+
+/*어바웃 이미지*/
+.about_imgbox{float:left; width:730px; height:1032px;}
+.about_img{width:3600px;}
+.about_img li{width:730px; position:relative;}
+
+.about_img1{display:none;}
+.about_img1.active{display:block;}
+
+.about_img2{display:none;}
+.about_img2.active{display:block;}
+
+.about_img3{display:none;}
+.about_img3.active{display:block;}
+
+.about_img4{display:none;}
+.about_img4.active{display:block;}
+
+.about_img5{display:none;}
+.about_img5.active{display:block;}
+
+/*어바웃 글자*/
+.about_text{float:right; margin-top:220px; margin-right:130px;}
+.about_text a{display:block; font-size:110px; font-family:'Noto Sans KR', sans-serif; font-weight:600; color:#ff8db1; margin-left:0px;}
+.about_text em{display:block; font-size:80px; font-family:'Noto Sans KR', sans-serif; font-weight:600; color:#78c9fa;}
+
+/*버튼 이미지 박스*/
+.btn_imgbox{}
+
+/*버튼 이미지 박스 li*/
+.btn_imgbox li{display:inline-block; margin-right:30px; margin-bottom:30px;}
+.btn_imgbox li:first-child{margin-left:20px; margin-top:30px;}
+.btn_imgbox li:nth-child(4){margin-left:100px;}
+
+/*버튼 이미지1*/
+.btn_img1{width:150px; height:150px; background:url(../img/ryu.jpg) no-repeat center center; border-radius:50%; background-size:cover;}
+
+/*버튼 이미지2*/
+.btn_img2{width:150px; height:150px; background:url(../img/ryu2.png) no-repeat center center; border-radius:50%; background-size:cover;}
+
+/*버튼 이미지3*/
+.btn_img3{width:150px; height:150px; background:url(../img/ryu5.png) no-repeat center center; border-radius:50%; background-size:cover;}
+
+/*버튼 이미지4*/
+.btn_img4{width:150px; height:150px; background:url(../img/ryu4.png) no-repeat center center; border-radius:50%; background-size:cover;}
+
+/*버튼 이미지5*/
+.btn_img5{width:150px; height:150px; background:url(../img/ryu3.png) no-repeat center center; border-radius:50%; background-size:cover;}
+
+/*떡*/
+.ricecake{clear:both; position:absolute; top:995px; right:470px; display:block; width:240px; height:60px; background:linear-gradient(270deg, rgba(120,201,250,1) 0%, rgba(186,231,255,1) 100%); transform:rotate(-30deg);}
+
+/*떡 글자*/
+.ricecake a{display:block; width:240px; height:40px; text-align:center; color:#fff; font-weight:600; line-height:40px; font-size:25px; margin:8px 0; border-top:2px solid #fff; border-bottom:2px solid #fff;}
+
+/*설명*/
+.text{clear:both; margin-left:200px; margin-top:50px;}
+
+.text a{display:block; font-weight:600; font-size:30px; font-family:sans-serif;}
+.text p{color:#000; margin-top:20px; font-size:20px;}
+
+/*앨범*/
+.album{width:100%; height:120vh; position:relative; overflow:hidden;;}
+
+/*앨범 소제목*/
+.album h3{display:block; font-size:90px; font-weight:600; font-family: 'Noto Sans KR', sans-serif; background: linear-gradient(90deg, rgba(120,201,250,1) 0%, rgba(192,247,255,1) 15%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-left:103px;}
+
+/*버튼*/
+.btn{position:relative; top:450px; left:0; z-index:10;}
+
+/*왼쪽 버튼*/
+.left_btn{position:absolute; border-bottom:2px solid #000; top:0; left:198px;}
+.left_btn a{display:block; font-size:25px; font-weight:600; padding-bottom:5px; color:#000;}
+
+/*오른쪽 버튼*/
+.right_btn{position:absolute; border-bottom:2px solid #000; top:0; right:215px;}
+.right_btn a{display:block; font-size:25px; font-weight:600; padding-bottom:5px; color:#000;}
+
+/*배경화면 크기*/
+.back{width:30450px; height:100vh; position:relative;}
+
+.back li{float:left; width:2030px; height:100vh; position:relative;}
+
+/*배경화면1*/
+.bg1{display:block; background:url(../img/album.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면2*/
+.bg2{display:block; background:url(../img/album2.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면3*/
+.bg3{display:block; background:url(../img/album3.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면4*/
+.bg4{display:block; background:url(../img/album4.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면5*/
+.bg5{display:block; background:url(../img/album5.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면6*/
+.bg6{display:block; background:url(../img/album6.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면7*/
+.bg7{display:block; background:url(../img/album7.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면8*/
+.bg8{display:block; background:url(../img/album8.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면9*/
+.bg9{display:block; background:url(../img/album9.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면10*/
+.bg10{display:block; background:url(../img/album10.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면11*/
+.bg11{display:block; background:url(../img/album11.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면12*/
+.bg12{display:block; background:url(../img/album12.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면13*/
+.bg13{display:block; background:url(../img/album13.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면14*/
+.bg14{display:block; background:url(../img/album14.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+/*배경화면15*/
+.bg15{display:block; background:url(../img/album15.png) no-repeat center -200px; background-size:cover; filter:blur(20px); position:relative; top:10px; left:-100px; z-index:-2;}
+
+
+/*왼쪽 사진1*/
+.bg1_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg1_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진 제목*/
+.bg1_left p{font-size:30px; font-family:'Fredoka One', cursive; color:#1f4294; margin-bottom:10px;}
+
+/*네임 박스*/
+.name_box{margin-top:20px;}
+
+/*왼쪽 사진 설명 제목*/
+.name_text{float:left; margin-right:20px;}
+
+.name_text li{margin-bottom:8px;}
+.name_text li:last-child{margin:0;}
+
+.name_text li a{display:block; font-size:15px; font-weight:600; color:#1f4294;}
+
+/*왼쪽 사진 설명 내용*/
+.name_content{float:left;}
+
+.name_content li{margin-bottom:8px;}
+.name_content li:last-child{margin:0;}
+
+.name_content li a{display:block; font-size:15px; font-weight:600; color:#1f4294;}
+
+/*오른쪽 설명1*/
+.bg1_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+
+.bg1_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명1 내용*/
+.bg1_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#1b263f;}
+
+.bg1_right a{display:block; font-size:19px; color:#1b263f; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name{}
+.track_name p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #1f4294; margin-bottom:10px;}
+
+/*타이거 텍스트*/
+.album_cont1{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont1.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:160px; overflow:hidden;}
+
+.album_cont2{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont2.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:250px; overflow:hidden;}
+
+.album_cont3{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont3.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:230px; overflow:hidden;}
+
+.album_cont4{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont4.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:190px; overflow:hidden;}
+
+.album_cont5{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont5.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:250px; overflow:hidden;}
+
+.album_cont6{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont6.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:230px; overflow:hidden;}
+
+.album_cont7{border-bottom:1px solid #1f4294; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album_cont7.on{border-bottom:1px solid #1f4294; margin-bottom:10px; height:250px; overflow:hidden;}
+
+/*서브 제목*/
+.sub_name{width:625px; margin-bottom:15px;}
+.number{float:left; font-weight:600; font-size:18px;}
+.title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목2*/
+.sub_name2{width:625px; margin-bottom:15px;}
+
+.number2{float:left; font-weight:600; font-size:18px;}
+
+.title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목3*/
+.sub_name3{width:625px; margin-bottom:15px;}
+
+.number3{float:left; font-weight:600; font-size:18px;}
+
+.title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목4*/
+.sub_name4{width:625px; margin-bottom:15px;}
+
+.number4{float:left; font-weight:600; font-size:18px;}
+
+.title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목5*/
+.sub_name5{width:625px; margin-bottom:15px;}
+
+.number5{float:left; font-weight:600; font-size:18px;}
+
+.title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목6*/
+.sub_name6{width:625px; margin-bottom:15px;}
+
+.number6{float:left; font-weight:600; font-size:18px;}
+
+.title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*서브 제목7*/
+.sub_name7{width:625px; margin-bottom:15px;}
+
+.number7{float:left; font-weight:600; font-size:18px;}
+
+.title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+
+.time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.tiger_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.tiger_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진2*/
+.bg2_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg2_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진2 제목*/
+.bg2_left p{font-size:30px; color:#fff; margin-bottom:10px; font-family: 'Jua', sans-serif;}
+
+/*네임 박스2*/
+.name_box2{margin-top:20px;}
+
+/*왼쪽 사진2 설명 제목*/
+.name_text2{float:left; margin-right:20px;}
+
+.name_text2 li{margin-bottom:8px;}
+.name_text2 li:last-child{margin:0;}
+
+.name_text2 li a{display:block; font-size:15px; font-weight:600; color:#fff;}
+
+/*왼쪽 사진2 설명 내용*/
+.name_content2{float:left;}
+
+.name_content2 li{margin-bottom:8px;}
+.name_content2 li:last-child{margin:0;}
+
+.name_content2 li a{display:block; font-size:15px; font-weight:600; color:#fff;}
+
+/*오른쪽 설명1*/
+.bg2_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+
+.bg2_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명1 내용*/
+.bg2_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#fff;}
+
+.bg2_right a{display:block; font-size:19px; color:#fff; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name2{}
+.track_name2 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #fff; margin-bottom:10px;}
+
+/*타이거 텍스트*/
+.album2_cont1{border-bottom:1px solid #fff; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album2_cont1.on{border-bottom:1px solid #fff; margin-bottom:10px; height:188px; overflow:hidden;}
+
+/*서브 제목*/
+.sub2_name{width:625px; margin-bottom:15px;}
+.sub2_number{float:left; font-weight:600; font-size:18px;}
+.sub2_title{ float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub2_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.girl_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.girl_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진3*/
+.bg3_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg3_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진3 제목*/
+.bg3_left p{font-size:30px; color:#093042; margin-bottom:10px; font-family: 'Jua', sans-serif;}
+
+/*네임 박스3*/
+.name_box3{margin-top:20px;}
+
+/*왼쪽 사진3 설명 제목*/
+.name_text3{float:left; margin-right:20px;}
+
+.name_text3 li{margin-bottom:8px;}
+.name_text3 li:last-child{margin:0;}
+
+.name_text3 li a{display:block; font-size:15px; font-weight:600; color:#093042;}
+
+/*왼쪽 사진3 설명 내용*/
+.name_content3{float:left;}
+
+.name_content3 li{margin-bottom:8px;}
+.name_content3 li:last-child{margin:0;}
+
+.name_content3 li a{display:block; font-size:15px; font-weight:600; color:#093042;}
+
+/*오른쪽 설명3*/
+.bg3_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg3_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명3 내용*/
+.bg3_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#093042;}
+
+.bg3_right a{display:block; font-size:19px; color:#093042; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name3{}
+.track_name3 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #093042; margin-bottom:10px;}
+
+/*타이거 텍스트*/
+.album3_cont1{border-bottom:1px solid #093042; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album3_cont1.on{border-bottom:1px solid #093042; margin-bottom:10px; height:250px; overflow:hidden;}
+
+/*서브 제목*/
+.sub3_name{width:625px; margin-bottom:15px;}
+.sub3_name a{margin:0;}
+.sub3_number{float:left; font-weight:600; font-size:18px;}
+.sub3_title{ float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub3_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.happy_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.happy_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진4*/
+.bg4_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg4_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진4 제목*/
+.bg4_left p{font-size:30px; color:#0f4209; margin-bottom:10px; font-family: 'Jua', sans-serif;}
+
+/*네임 박스4*/
+.name_box4{margin-top:20px;}
+
+/*왼쪽 사진4 설명 제목*/
+.name_text4{float:left; margin-right:20px;}
+
+.name_text4 li{margin-bottom:8px;}
+.name_text4 li:last-child{margin:0;}
+
+.name_text4 li a{display:block; font-size:15px; font-weight:600; color:#0f4209;}
+
+/*왼쪽 사진4 설명 내용*/
+.name_content4{float:left;}
+
+.name_content4 li{margin-bottom:8px;}
+.name_content4 li:last-child{margin:0;}
+
+.name_content4 li a{display:block; font-size:15px; font-weight:600; color:#0f4209;}
+
+/*오른쪽 설명4*/
+.bg4_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg4_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명4 내용*/
+.bg4_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#0f4209;}
+
+.bg4_right a{display:block; font-size:19px; color:#0f4209; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name4{}
+.track_name4 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #0f4209; margin-bottom:10px;}
+
+/*타이거 텍스트*/
+.album4_cont1{border-bottom:1px solid #0f4209; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album4_cont1.on{border-bottom:1px solid #0f4209; margin-bottom:10px; height:220px; overflow:hidden;}
+
+/*서브 제목*/
+.sub4_name{width:625px; margin-bottom:15px;}
+.sub4_name a{margin:0;}
+.sub4_number{float:left; font-weight:600; font-size:18px;}
+.sub4_title{ float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub4_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.summer_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.summer_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진5*/
+.bg5_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg5_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진5 제목*/
+.bg5_left p{font-size:30px; color:#420909; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스5*/
+.name_box5{margin-top:20px;}
+
+/*왼쪽 사진5 설명 제목*/
+.name_text5{float:left; margin-right:20px;}
+
+.name_text5 li{margin-bottom:8px;}
+.name_text5 li:last-child{margin:0;}
+
+.name_text5 li a{display:block; font-size:15px; font-weight:600; color:#420909;}
+
+/*왼쪽 사진5 설명 내용*/
+.name_content5{float:left;}
+
+.name_content5 li{margin-bottom:8px;}
+.name_content5 li:last-child{margin:0;}
+
+.name_content5 li a{display:block; font-size:15px; font-weight:600; color:#420909;}
+
+/*오른쪽 설명5*/
+.bg5_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg5_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명5 내용*/
+.bg5_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#420909;}
+
+.bg5_right a{display:block; font-size:19px; color:#420909; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name5{}
+.track_name5 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #420909; margin-bottom:10px;}
+
+/*캔디 텍스트*/
+.album5_cont1{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont1.on{border-bottom:1px solid #420909; margin-bottom:10px; height:120px; overflow:hidden;}
+
+/*서브 제목*/
+.sub5_name{width:625px; margin-bottom:15px;}
+.sub5_name a{margin:0;}
+.sub5_number{float:left; font-weight:600; font-size:18px;}
+.sub5_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.invasion_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트2*/
+.album5_cont2{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont2.on{border-bottom:1px solid #420909; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub5_name2{width:625px; margin-bottom:15px;}
+.sub5_name2 a{margin:0;}
+.sub5_number2{float:left; font-weight:600; font-size:18px;}
+.sub5_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.invasion_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트3*/
+.album5_cont3{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont3.on{border-bottom:1px solid #420909; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub5_name3{width:625px; margin-bottom:15px;}
+.sub5_name3 a{margin:0;}
+.sub5_number3{float:left; font-weight:600; font-size:18px;}
+.sub5_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.invasion_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트4*/
+.album5_cont4{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont4.on{border-bottom:1px solid #420909; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub5_name4{width:625px; margin-bottom:15px;}
+.sub5_name4 a{margin:0;}
+.sub5_number4{float:left; font-weight:600; font-size:18px;}
+.sub5_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.invasion_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트5*/
+.album5_cont5{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont5.on{border-bottom:1px solid #420909; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub5_name5{width:625px; margin-bottom:15px;}
+.sub5_name5 a{margin:0;}
+.sub5_number5{float:left; font-weight:600; font-size:18px;}
+.sub5_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.invasion_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트6*/
+.album5_cont6{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont6.on{border-bottom:1px solid #420909; margin-bottom:10px; height:320px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub5_name6{width:625px; margin-bottom:15px;}
+.sub5_name6 a{margin:0;}
+.sub5_number6{float:left; font-weight:600; font-size:18px;}
+.sub5_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.invasion_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트7*/
+.album5_cont7{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont7.on{border-bottom:1px solid #420909; margin-bottom:10px; height:280px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub5_name7{width:625px; margin-bottom:15px;}
+.sub5_name7 a{margin:0;}
+.sub5_number7{float:left; font-weight:600; font-size:18px;}
+.sub5_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.invasion_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트8*/
+.album5_cont8{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont8.on{border-bottom:1px solid #420909; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목8*/
+.sub5_name8{width:625px; margin-bottom:15px;}
+.sub5_name8 a{margin:0;}
+.sub5_number8{float:left; font-weight:600; font-size:18px;}
+.sub5_title8{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time8{float:right; font-weight:600; font-size:18px;}
+
+/*내용8*/
+.invasion_content8 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content8 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*캔디 텍스트9*/
+.album5_cont9{border-bottom:1px solid #420909; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album5_cont9.on{border-bottom:1px solid #420909; margin-bottom:10px; height:260px; overflow:hidden;}
+
+/*서브 제목9*/
+.sub5_name9{width:625px; margin-bottom:15px;}
+.sub5_name9 a{margin:0;}
+.sub5_number9{float:left; font-weight:600; font-size:18px;}
+.sub5_title9{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub5_time9{float:right; font-weight:600; font-size:18px;}
+
+/*내용9*/
+.invasion_content9 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.invasion_content9 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진6*/
+.bg6_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg6_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진6 제목*/
+.bg6_left p{font-size:30px; color:#fd9490; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스6*/
+.name_box6{margin-top:20px;}
+
+/*왼쪽 사진6 설명 제목*/
+.name_text6{float:left; margin-right:20px;}
+
+.name_text6 li{margin-bottom:8px;}
+.name_text6 li:last-child{margin:0;}
+
+.name_text6 li a{display:block; font-size:15px; font-weight:600; color:#fd9490;}
+
+/*왼쪽 사진6 설명 내용*/
+.name_content6{float:left;}
+
+.name_content6 li{margin-bottom:8px;}
+.name_content6 li:last-child{margin:0;}
+
+.name_content6 li a{display:block; font-size:15px; font-weight:600; color:#fd9490;}
+
+/*오른쪽 설명6*/
+.bg6_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg6_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명6 내용*/
+.bg6_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#fd9490;}
+
+.bg6_right a{display:block; font-size:19px; color:#fd9490; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name6{}
+.track_name6 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #fd9490; margin-bottom:10px;}
+
+/*하이 텍스트*/
+.album6_cont1{border-bottom:1px solid #fd9490; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album6_cont1.on{border-bottom:1px solid #fd9490; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목*/
+.sub6_name{width:625px; margin-bottom:15px;}
+.sub6_name a{margin:0;}
+.sub6_number{float:left; font-weight:600; font-size:18px;}
+.sub6_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub6_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.hi_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.hi_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트2*/
+.album6_cont2{border-bottom:1px solid #fd9490; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album6_cont2.on{border-bottom:1px solid #fd9490; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목*/
+.sub6_name2{width:625px; margin-bottom:15px;}
+.sub6_name2 a{margin:0;}
+.sub6_number2{float:left; font-weight:600; font-size:18px;}
+.sub6_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub6_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.hi_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.hi_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진7*/
+.bg7_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg7_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진7 제목*/
+.bg7_left p{font-size:30px; color:#73ab9e; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스7*/
+.name_box7{margin-top:20px;}
+
+/*왼쪽 사진7 설명 제목*/
+.name_text7{float:left; margin-right:20px;}
+
+.name_text7 li{margin-bottom:8px;}
+.name_text7 li:last-child{margin:0;}
+
+.name_text7 li a{display:block; font-size:15px; font-weight:600; color:#73ab9e;}
+
+/*왼쪽 사진7 설명 내용*/
+.name_content7{float:left;}
+
+.name_content7 li{margin-bottom:8px;}
+.name_content7 li:last-child{margin:0;}
+
+.name_content7 li a{display:block; font-size:15px; font-weight:600; color:#73ab9e;}
+
+/*오른쪽 설명7*/
+.bg7_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg7_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명7 내용*/
+.bg7_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#73ab9e;}
+
+.bg7_right a{display:block; font-size:19px; color:#73ab9e; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name7{}
+.track_name7 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #73ab9e; margin-bottom:10px;}
+
+/*하이 텍스트*/
+.album7_cont1{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont1.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목*/
+.sub7_name{width:625px; margin-bottom:15px;}
+.sub7_name a{margin:0;}
+.sub7_number{float:left; font-weight:600; font-size:18px;}
+.sub7_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.love_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트2*/
+.album7_cont2{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont2.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub7_name2{width:625px; margin-bottom:15px;}
+.sub7_name2 a{margin:0;}
+.sub7_number2{float:left; font-weight:600; font-size:18px;}
+.sub7_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.love_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트3*/
+.album7_cont3{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont3.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub7_name3{width:625px; margin-bottom:15px;}
+.sub7_name3 a{margin:0;}
+.sub7_number3{float:left; font-weight:600; font-size:18px;}
+.sub7_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.love_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트4*/
+.album7_cont4{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont4.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub7_name4{width:625px; margin-bottom:15px;}
+.sub7_name4 a{margin:0;}
+.sub7_number4{float:left; font-weight:600; font-size:18px;}
+.sub7_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.love_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트5*/
+.album7_cont5{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont5.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub7_name5{width:625px; margin-bottom:15px;}
+.sub7_name5 a{margin:0;}
+.sub7_number5{float:left; font-weight:600; font-size:18px;}
+.sub7_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.love_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트6*/
+.album7_cont6{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont6.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub7_name6{width:625px; margin-bottom:15px;}
+.sub7_name6 a{margin:0;}
+.sub7_number6{float:left; font-weight:600; font-size:18px;}
+.sub7_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.love_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*하이 텍스트7*/
+.album7_cont7{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album7_cont7.on{border-bottom:1px solid #73ab9e; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub7_name7{width:625px; margin-bottom:15px;}
+.sub7_name7 a{margin:0;}
+.sub7_number7{float:left; font-weight:600; font-size:18px;}
+.sub7_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub7_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.love_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.love_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진8*/
+.bg8_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg8_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진8 제목*/
+.bg8_left p{font-size:30px; color:#f480b9; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스8*/
+.name_box8{margin-top:20px;}
+
+/*왼쪽 사진8 설명 제목*/
+.name_text8{float:left; margin-right:20px;}
+
+.name_text8 li{margin-bottom:8px;}
+.name_text8 li:last-child{margin:0;}
+
+.name_text8 li a{display:block; font-size:15px; font-weight:600; color:#f480b9;}
+
+/*왼쪽 사진8 설명 내용*/
+.name_content8{float:left;}
+
+.name_content8 li{margin-bottom:8px;}
+.name_content8 li:last-child{margin:0;}
+
+.name_content8 li a{display:block; font-size:15px; font-weight:600; color:#f480b9;}
+
+/*오른쪽 설명8*/
+.bg8_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg8_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명8 내용*/
+.bg8_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#f480b9;}
+
+.bg8_right a{display:block; font-size:19px; color:#f480b9; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name8{}
+.track_name8 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #f480b9; margin-bottom:10px;}
+
+/*러블리너스 텍스트*/
+.album8_cont1{border-bottom:1px solid #f480b9; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album8_cont1.on{border-bottom:1px solid #f480b9; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목*/
+.sub8_name{width:625px; margin-bottom:15px;}
+.sub8_name a{margin:0;}
+.sub8_number{float:left; font-weight:600; font-size:18px;}
+.sub8_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub8_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.lovelinus_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.lovelinus_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트2*/
+.album8_cont2{border-bottom:1px solid #f480b9; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album8_cont2.on{border-bottom:1px solid #f480b9; margin-bottom:10px; height:300px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub8_name2{width:625px; margin-bottom:15px;}
+.sub8_name2 a{margin:0;}
+.sub8_number2{float:left; font-weight:600; font-size:18px;}
+.sub8_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub8_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.lovelinus_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.lovelinus_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트3*/
+.album8_cont3{border-bottom:1px solid #f480b9; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album8_cont3.on{border-bottom:1px solid #f480b9; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub8_name3{width:625px; margin-bottom:15px;}
+.sub8_name3 a{margin:0;}
+.sub8_number3{float:left; font-weight:600; font-size:18px;}
+.sub8_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub8_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.lovelinus_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.lovelinus_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진9*/
+.bg9_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg9_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진9 제목*/
+.bg9_left p{font-size:30px; color:#38041b; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스9*/
+.name_box9{margin-top:20px;}
+
+/*왼쪽 사진9 설명 제목*/
+.name_text9{float:left; margin-right:20px;}
+
+.name_text9 li{margin-bottom:8px;}
+.name_text9 li:last-child{margin:0;}
+.name_text9 li a{display:block; font-size:15px; font-weight:600; color:#38041b;}
+
+/*왼쪽 사진9 설명 내용*/
+.name_content9{float:left;}
+
+.name_content9 li{margin-bottom:8px;}
+.name_content9 li:last-child{margin:0;}
+
+.name_content9 li a{display:block; font-size:15px; font-weight:600; color:#38041b;}
+
+/*오른쪽 설명9*/
+.bg9_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg9_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명9 내용*/
+.bg9_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#38041b;}
+
+.bg9_right a{display:block; font-size:19px; color:#38041b; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name9{}
+.track_name9 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #38041b; margin-bottom:10px;}
+
+/*러블리너스 텍스트*/
+.album9_cont1{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont1.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:140px; overflow:hidden;}
+
+/*서브 제목*/
+.sub9_name{width:625px; margin-bottom:15px;}
+.sub9_name a{margin:0;}
+.sub9_number{float:left; font-weight:600; font-size:18px;}
+.sub9_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.trilogy_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트2*/
+.album9_cont2{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont2.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub9_name2{width:625px; margin-bottom:15px;}
+.sub9_name2 a{margin:0;}
+.sub9_number2{float:left; font-weight:600; font-size:18px;}
+.sub9_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.trilogy_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트3*/
+.album9_cont3{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont3.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub9_name3{width:625px; margin-bottom:15px;}
+.sub9_name3 a{margin:0;}
+.sub9_number3{float:left; font-weight:600; font-size:18px;}
+.sub9_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.trilogy_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트4*/
+.album9_cont4{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont4.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub9_name4{width:625px; margin-bottom:15px;}
+.sub9_name4 a{margin:0;}
+.sub9_number4{float:left; font-weight:600; font-size:18px;}
+.sub9_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.trilogy_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트5*/
+.album9_cont5{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont5.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub9_name5{width:625px; margin-bottom:15px;}
+.sub9_name5 a{margin:0;}
+.sub9_number5{float:left; font-weight:600; font-size:18px;}
+.sub9_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.trilogy_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트6*/
+.album9_cont6{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont6.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub9_name6{width:625px; margin-bottom:15px;}
+.sub9_name6 a{margin:0;}
+.sub9_number6{float:left; font-weight:600; font-size:18px;}
+.sub9_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.trilogy_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*러블리너스 텍스트7*/
+.album9_cont7{border-bottom:1px solid #38041b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album9_cont7.on{border-bottom:1px solid #38041b; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub9_name7{width:625px; margin-bottom:15px;}
+.sub9_name7 a{margin:0;}
+.sub9_number7{float:left; font-weight:600; font-size:18px;}
+.sub9_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub9_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.trilogy_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.trilogy_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진10*/
+.bg10_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg10_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진10 제목*/
+.bg10_left p{font-size:30px; color:#e40067; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스10*/
+.name_box10{margin-top:20px;}
+
+/*왼쪽 사진10 설명 제목*/
+.name_text10{float:left; margin-right:20px;}
+
+.name_text10 li{margin-bottom:8px;}
+.name_text10 li:last-child{margin:0;}
+.name_text10 li a{display:block; font-size:15px; font-weight:600; color:#e40067;}
+
+/*왼쪽 사진10 설명 내용*/
+.name_content10{float:left;}
+
+.name_content10 li{margin-bottom:8px;}
+.name_content10 li:last-child{margin:0;}
+
+.name_content10 li a{display:block; font-size:15px; font-weight:600; color:#e40067;}
+
+/*오른쪽 설명10*/
+.bg10_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg10_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명10 내용*/
+.bg10_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#e40067;}
+
+.bg10_right a{display:block; font-size:19px; color:#e40067; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name10{}
+.track_name10 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #e40067; margin-bottom:10px;}
+
+/*와우 텍스트*/
+.album10_cont1{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont1.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목*/
+.sub10_name{width:625px; margin-bottom:15px;}
+.sub10_name a{margin:0;}
+.sub10_number{float:left; font-weight:600; font-size:18px;}
+.sub10_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.wow_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트2*/
+.album10_cont2{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont2.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub10_name2{width:625px; margin-bottom:15px;}
+.sub10_name2 a{margin:0;}
+.sub10_number2{float:left; font-weight:600; font-size:18px;}
+.sub10_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.wow_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트3*/
+.album10_cont3{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont3.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub10_name3{width:625px; margin-bottom:15px;}
+.sub10_name3 a{margin:0;}
+.sub10_number3{float:left; font-weight:600; font-size:18px;}
+.sub10_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.wow_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트4*/
+.album10_cont4{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont4.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:320px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub10_name4{width:625px; margin-bottom:15px;}
+.sub10_name4 a{margin:0;}
+.sub10_number4{float:left; font-weight:600; font-size:18px;}
+.sub10_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.wow_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트5*/
+.album10_cont5{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont5.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub10_name5{width:625px; margin-bottom:15px;}
+.sub10_name5 a{margin:0;}
+.sub10_number5{float:left; font-weight:600; font-size:18px;}
+.sub10_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.wow_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트6*/
+.album10_cont6{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont6.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub10_name6{width:625px; margin-bottom:15px;}
+.sub10_name6 a{margin:0;}
+.sub10_number6{float:left; font-weight:600; font-size:18px;}
+.sub10_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.wow_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트7*/
+.album10_cont7{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont7.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub10_name7{width:625px; margin-bottom:15px;}
+.sub10_name7 a{margin:0;}
+.sub10_number7{float:left; font-weight:600; font-size:18px;}
+.sub10_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.wow_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트8*/
+.album10_cont8{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont8.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:250px; overflow:hidden;}
+
+/*서브 제목8*/
+.sub10_name8{width:625px; margin-bottom:15px;}
+.sub10_name8 a{margin:0;}
+.sub10_number8{float:left; font-weight:600; font-size:18px;}
+.sub10_title8{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time8{float:right; font-weight:600; font-size:18px;}
+
+/*내용8*/
+.wow_content8 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content8 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트9*/
+.album10_cont9{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont9.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목9*/
+.sub10_name9{width:625px; margin-bottom:15px;}
+.sub10_name9 a{margin:0;}
+.sub10_number9{float:left; font-weight:600; font-size:18px;}
+.sub10_title9{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub10_time9{float:right; font-weight:600; font-size:18px;}
+
+/*내용9*/
+.wow_content9 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content9 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트10*/
+.album10_cont10{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont10.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목10*/
+.sub10_name10{width:625px; margin-bottom:15px;}
+.sub10_name10 a{margin:0;}
+.sub10_number10{float:left; font-weight:600; font-size:18px;}
+.sub10_title10{float:left; font-weight:600; font-size:18px; margin-left:20px;}
+.sub10_time10{float:right; font-weight:600; font-size:18px;}
+
+/*내용10*/
+.wow_content10 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content10 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*와우 텍스트11*/
+.album10_cont11{border-bottom:1px solid #e40067; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album10_cont11.on{border-bottom:1px solid #e40067; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목11*/
+.sub10_name11{width:625px; margin-bottom:15px;}
+.sub10_name11 a{margin:0;}
+.sub10_number11{float:left; font-weight:600; font-size:18px;}
+.sub10_title11{float:left; font-weight:600; font-size:18px; margin-left:20px;}
+.sub10_time11{float:right; font-weight:600; font-size:18px;}
+
+/*내용11*/
+.wow_content11 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.wow_content11 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진11*/
+.bg11_left{width:625px; position:absolute; top:250px; left:100px; opacity:0; transition:all 0.5s;}
+
+.bg11_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진11 제목*/
+.bg11_left p{font-size:30px; color:#54837a; margin-bottom:10px; font-family: 'Jua', sans-serif;}
+
+/*네임 박스11*/
+.name_box11{margin-top:20px;}
+
+/*왼쪽 사진11 설명 제목*/
+.name_text11{float:left; margin-right:20px;}
+
+.name_text11 li{margin-bottom:8px;}
+.name_text11 li:last-child{margin:0;}
+.name_text11 li a{display:block; font-size:15px; font-weight:600; color:#54837a;}
+
+/*왼쪽 사진11 설명 내용*/
+.name_content11{float:left;}
+
+.name_content11 li{margin-bottom:8px;}
+.name_content11 li:last-child{margin:0;}
+
+.name_content11 li a{display:block; font-size:15px; font-weight:600; color:#54837a;}
+
+/*오른쪽 설명11*/
+.bg11_right{width:625px; position:absolute; top:300px; right:100px; opacity:0; transition:all 0.5s;}
+.bg11_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명11 내용*/
+.bg11_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#54837a;}
+
+.bg11_right a{display:block; font-size:19px; color:#54837a; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name11{}
+.track_name11 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #54837a; margin-bottom:10px;}
+
+/*지금, 우리 텍스트*/
+.album11_cont1{border-bottom:1px solid #54837a; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album11_cont1.on{border-bottom:1px solid #54837a; margin-bottom:10px; height:290px; overflow:hidden;}
+
+/*서브 제목*/
+.sub11_name{width:625px; margin-bottom:15px;}
+.sub11_name a{margin:0;}
+.sub11_number{float:left; font-weight:600; font-size:18px;}
+.sub11_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub11_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.we_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.we_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*지금, 우리 텍스트2*/
+.album11_cont2{border-bottom:1px solid #54837a; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album11_cont2.on{border-bottom:1px solid #54837a; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub11_name2{width:625px; margin-bottom:15px;}
+.sub11_name2 a{margin:0;}
+.sub11_number2{float:left; font-weight:600; font-size:18px;}
+.sub11_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub11_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.we_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.we_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진12*/
+.bg12_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg12_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진12 제목*/
+.bg12_left p{font-size:30px; color:#bd1f52; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스12*/
+.name_box12{margin-top:20px;}
+
+/*왼쪽 사진12 설명 제목*/
+.name_text12{float:left; margin-right:20px;}
+
+.name_text12 li{margin-bottom:8px;}
+.name_text12 li:last-child{margin:0;}
+.name_text12 li a{display:block; font-size:15px; font-weight:600; color:#bd1f52;}
+
+/*왼쪽 사진12 설명 내용*/
+.name_content12{float:left;}
+
+.name_content12 li{margin-bottom:8px;}
+.name_content12 li:last-child{margin:0;}
+
+.name_content12 li a{display:block; font-size:15px; font-weight:600; color:#bd1f52;}
+
+/*오른쪽 설명12*/
+.bg12_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg12_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명12 내용*/
+.bg12_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#ffaf4e;}
+
+.bg12_right a{display:block; font-size:19px; color:#ffaf4e; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name12{}
+.track_name12 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #ffaf4e; margin-bottom:10px;}
+
+/*종소리 텍스트*/
+.album12_cont1{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont1.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목*/
+.sub12_name{width:625px; margin-bottom:15px;}
+.sub12_name a{margin:0;}
+.sub12_number{float:left; font-weight:600; font-size:18px;}
+.sub12_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.bell_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트2*/
+.album12_cont2{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont2.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:290px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub12_name2{width:625px; margin-bottom:15px;}
+.sub12_name2 a{margin:0;}
+.sub12_number2{float:left; font-weight:600; font-size:18px;}
+.sub12_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.bell_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트3*/
+.album12_cont3{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont3.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub12_name3{width:625px; margin-bottom:15px;}
+.sub12_name3 a{margin:0;}
+.sub12_number3{float:left; font-weight:600; font-size:18px;}
+.sub12_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.bell_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트4*/
+.album12_cont4{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont4.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub12_name4{width:625px; margin-bottom:15px;}
+.sub12_name4 a{margin:0;}
+.sub12_number4{float:left; font-weight:600; font-size:18px;}
+.sub12_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.bell_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트5*/
+.album12_cont5{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont5.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub12_name5{width:625px; margin-bottom:15px;}
+.sub12_name5 a{margin:0;}
+.sub12_number5{float:left; font-weight:600; font-size:18px;}
+.sub12_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.bell_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트6*/
+.album12_cont6{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont6.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub12_name6{width:625px; margin-bottom:15px;}
+.sub12_name6 a{margin:0;}
+.sub12_number6{float:left; font-weight:600; font-size:18px;}
+.sub12_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.bell_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*종소리 텍스트7*/
+.album12_cont7{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album12_cont7.on{border-bottom:1px solid #ffaf4e; margin-bottom:10px; height:300px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub12_name7{width:625px; margin-bottom:15px;}
+.sub12_name7 a{margin:0;}
+.sub12_number7{float:left; font-weight:600; font-size:18px;}
+.sub12_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub12_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.bell_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.bell_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진13*/
+.bg13_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg13_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진13 제목*/
+.bg13_left p{font-size:30px; color:#da2615; margin-bottom:10px; font-family: 'Jua', sans-serif;}
+
+/*네임 박스13*/
+.name_box13{margin-top:20px;}
+
+/*왼쪽 사진13 설명 제목*/
+.name_text13{float:left; margin-right:20px;}
+
+.name_text13 li{margin-bottom:8px;}
+.name_text13 li:last-child{margin:0;}
+.name_text13 li a{display:block; font-size:15px; font-weight:600; color:#da2615;}
+
+/*왼쪽 사진13 설명 내용*/
+.name_content13{float:left;}
+
+.name_content13 li{margin-bottom:8px;}
+.name_content13 li:last-child{margin:0;}
+
+.name_content13 li a{display:block; font-size:15px; font-weight:600; color:#da2615;}
+
+/*오른쪽 설명13*/
+.bg13_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg13_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명13 내용*/
+.bg13_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#a3222b;}
+
+.bg13_right a{display:block; font-size:19px; color:#a3222b; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name13{}
+.track_name13 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #a3222b; margin-bottom:10px;}
+
+/*치유 텍스트*/
+.album13_cont1{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont1.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:140px; overflow:hidden;}
+
+/*서브 제목*/
+.sub13_name{width:625px; margin-bottom:15px;}
+.sub13_name a{margin:0;}
+.sub13_number{float:left; font-weight:600; font-size:18px;}
+.sub13_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.cure_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*치유 텍스트2*/
+.album13_cont2{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont2.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub13_name2{width:625px; margin-bottom:15px;}
+.sub13_name2 a{margin:0;}
+.sub13_number2{float:left; font-weight:600; font-size:18px;}
+.sub13_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.cure_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*치유 텍스트3*/
+.album13_cont3{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont3.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub13_name3{width:625px; margin-bottom:15px;}
+.sub13_name3 a{margin:0;}
+.sub13_number3{float:left; font-weight:600; font-size:18px;}
+.sub13_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.cure_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*치유 텍스트4*/
+.album13_cont4{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont4.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub13_name4{width:625px; margin-bottom:15px;}
+.sub13_name4 a{margin:0;}
+.sub13_number4{float:left; font-weight:600; font-size:18px;}
+.sub13_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.cure_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*치유 텍스트5*/
+.album13_cont5{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont5.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub13_name5{width:625px; margin-bottom:15px;}
+.sub13_name5 a{margin:0;}
+.sub13_number5{float:left; font-weight:600; font-size:18px;}
+.sub13_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.cure_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*치유 텍스트6*/
+.album13_cont6{border-bottom:1px solid #a3222b; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album13_cont6.on{border-bottom:1px solid #a3222b; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub13_name6{width:625px; margin-bottom:15px;}
+.sub13_name6 a{margin:0;}
+.sub13_number6{float:left; font-weight:600; font-size:18px;}
+.sub13_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub13_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.cure_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.cure_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진14*/
+.bg14_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg14_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진14 제목*/
+.bg14_left p{font-size:30px; color:#ffb3b2; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스14*/
+.name_box14{margin-top:20px;}
+
+/*왼쪽 사진14 설명 제목*/
+.name_text14{float:left; margin-right:20px;}
+
+.name_text14 li{margin-bottom:8px;}
+.name_text14 li:last-child{margin:0;}
+.name_text14 li a{display:block; font-size:15px; font-weight:600; color:#ffb3b2;}
+
+/*왼쪽 사진14 설명 내용*/
+.name_content14{float:left;}
+.name_content14 li{margin-bottom:8px;}
+.name_content14 li:last-child{margin:0;}
+
+.name_content14 li a{display:block; font-size:15px; font-weight:600; color:#ffb3b2;}
+
+/*오른쪽 설명14*/
+.bg14_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg14_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명14 내용*/
+.bg14_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#f7d4d1;}
+
+.bg14_right a{display:block; font-size:19px; color:#f7d4d1; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name14{}
+.track_name14 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #f7d4d1; margin-bottom:10px;}
+
+/*생츄어리 텍스트*/
+.album14_cont1{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont1.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목*/
+.sub14_name{width:625px; margin-bottom:15px;}
+.sub14_name a{margin:0;}
+.sub14_number{float:left; font-weight:600; font-size:18px;}
+.sub14_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.san_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트2*/
+.album14_cont2{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont2.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub14_name2{width:625px; margin-bottom:15px;}
+.sub14_name2 a{margin:0;}
+.sub14_number2{float:left; font-weight:600; font-size:18px;}
+.sub14_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.san_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트3*/
+.album14_cont3{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont3.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub14_name3{width:625px; margin-bottom:15px;}
+.sub14_name3 a{margin:0;}
+.sub14_number3{float:left; font-weight:600; font-size:18px;}
+.sub14_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.san_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트4*/
+.album14_cont4{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont4.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub14_name4{width:625px; margin-bottom:15px;}
+.sub14_name4 a{margin:0;}
+.sub14_number4{float:left; font-weight:600; font-size:18px;}
+.sub14_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.san_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트5*/
+.album14_cont5{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont5.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub14_name5{width:625px; margin-bottom:15px;}
+.sub14_name5 a{margin:0;}
+.sub14_number5{float:left; font-weight:600; font-size:18px;}
+.sub14_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.san_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트6*/
+.album14_cont6{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont6.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub14_name6{width:625px; margin-bottom:15px;}
+.sub14_name6 a{margin:0;}
+.sub14_number6{float:left; font-weight:600; font-size:18px;}
+.sub14_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.san_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*생츄어리 텍스트7*/
+.album14_cont7{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album14_cont7.on{border-bottom:1px solid #f7d4d1; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목7*/
+.sub14_name7{width:625px; margin-bottom:15px;}
+.sub14_name7 a{margin:0;}
+.sub14_number7{float:left; font-weight:600; font-size:18px;}
+.sub14_title7{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub14_time7{float:right; font-weight:600; font-size:18px;}
+
+/*내용7*/
+.san_content7 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.san_content7 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+
+/*왼쪽 사진15*/
+.bg15_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+
+.bg15_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+
+/*왼쪽 사진15 제목*/
+.bg15_left p{font-size:30px; color:#ebe3d5; margin-bottom:10px; font-family:'Fredoka One', cursive;}
+
+/*네임 박스15*/
+.name_box15{margin-top:20px;}
+
+/*왼쪽 사진15 설명 제목*/
+.name_text15{float:left; margin-right:20px;}
+
+.name_text15 li{margin-bottom:8px;}
+.name_text15 li:last-child{margin:0;}
+.name_text15 li a{display:block; font-size:15px; font-weight:600; color:#ebe3d5;}
+
+/*왼쪽 사진15 설명 내용*/
+.name_content15{float:left;}
+.name_content15 li{margin-bottom:8px;}
+.name_content15 li:last-child{margin:0;}
+
+.name_content15 li a{display:block; font-size:15px; font-weight:600; color:#ebe3d5;}
+
+/*오른쪽 설명15*/
+.bg15_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg15_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+
+/*오른쪽 내용 설명15 내용*/
+.bg15_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#074350;}
+
+.bg15_right a{display:block; font-size:19px; color:#074350; font-weight:600; margin-bottom:20px;}
+
+/*트렉 제목*/
+.track_name15{}
+.track_name15 p{padding-bottom:10px; font-family:sans-serif; margin:0; border-bottom:3px solid #074350; margin-bottom:10px;}
+
+/*원스 텍스트*/
+.album15_cont1{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont1.on{border-bottom:1px solid #074350; margin-bottom:10px; height:150px; overflow:hidden;}
+
+/*서브 제목*/
+.sub15_name{width:625px; margin-bottom:15px;}
+.sub15_name a{margin:0;}
+.sub15_number{float:left; font-weight:600; font-size:18px;}
+.sub15_title{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time{float:right; font-weight:600; font-size:18px;}
+
+/*내용*/
+.once_content a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*원스 텍스트2*/
+.album15_cont2{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont2.on{border-bottom:1px solid #074350; margin-bottom:10px; height:230px; overflow:hidden;}
+
+/*서브 제목2*/
+.sub15_name2{width:625px; margin-bottom:15px;}
+.sub15_name2 a{margin:0;}
+.sub15_number2{float:left; font-weight:600; font-size:18px;}
+.sub15_title2{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time2{float:right; font-weight:600; font-size:18px;}
+
+/*내용2*/
+.once_content2 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content2 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*원스 텍스트3*/
+.album15_cont3{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont3.on{border-bottom:1px solid #074350; margin-bottom:10px; height:170px; overflow:hidden;}
+
+/*서브 제목3*/
+.sub15_name3{width:625px; margin-bottom:15px;}
+.sub15_name3 a{margin:0;}
+.sub15_number3{float:left; font-weight:600; font-size:18px;}
+.sub15_title3{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time3{float:right; font-weight:600; font-size:18px;}
+
+/*내용3*/
+.once_content3 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content3 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*원스 텍스트4*/
+.album15_cont4{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont4.on{border-bottom:1px solid #074350; margin-bottom:10px; height:210px; overflow:hidden;}
+
+/*서브 제목4*/
+.sub15_name4{width:625px; margin-bottom:15px;}
+.sub15_name4 a{margin:0;}
+.sub15_number4{float:left; font-weight:600; font-size:18px;}
+.sub15_title4{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time4{float:right; font-weight:600; font-size:18px;}
+
+/*내용4*/
+.once_content4 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content4 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*원스 텍스트5*/
+.album15_cont5{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont5.on{border-bottom:1px solid #074350; margin-bottom:10px; height:280px; overflow:hidden;}
+
+/*서브 제목5*/
+.sub15_name5{width:625px; margin-bottom:15px;}
+.sub15_name5 a{margin:0;}
+.sub15_number5{float:left; font-weight:600; font-size:18px;}
+.sub15_title5{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time5{float:right; font-weight:600; font-size:18px;}
+
+/*내용5*/
+.once_content5 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content5 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*원스 텍스트6*/
+.album15_cont6{border-bottom:1px solid #074350; margin-bottom:10px; height:29px; overflow:hidden; transition:all 0.5s;}
+
+.album15_cont6.on{border-bottom:1px solid #074350; margin-bottom:10px; height:190px; overflow:hidden;}
+
+/*서브 제목6*/
+.sub15_name6{width:625px; margin-bottom:15px;}
+.sub15_name6 a{margin:0;}
+.sub15_number6{float:left; font-weight:600; font-size:18px;}
+.sub15_title6{float:left; font-weight:600; font-size:18px; margin-left:30px;}
+.sub15_time6{float:right; font-weight:600; font-size:18px;}
+
+/*내용6*/
+.once_content6 a{display:block; margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+.once_content6 p{margin:0; font-weight:100; font-size:15px; margin-left:40px; margin-bottom:15px; font-weight:600;}
+
+/*포토*/
+.photo{width:100%; margin-top:100px;}
+
+/*포토 글자*/
+.photo h4{display:block; font-size:90px; font-weight:600; font-family: 'Noto Sans KR', sans-serif; background: linear-gradient(90deg, rgba(250,120,120,1) 0%, rgba(255,218,236,1) 15%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-left:95px;}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem -1rem;
+}
+
+.gallery-item {	
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image2 {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: transform 400ms ease-out;
+}
+
+
+.gallery2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem 1rem;
+}
+
+.gallery-item2 {	
+	flex: 1 0 1rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+.gallery-image2:hover {
+	transform: scale(1.15);
+	}
+
+
+.gallery3 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+}
+
+.gallery-item3 {	
+	flex: 1 0 20rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image3 {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image3:hover {
+	transform: scale(1.15);
+	}
+
+
+.gallery-item{position:relative; overflow: hidden;}
+.gallery-item:before{content: ''; position: absolute; left: 0; right: 0; bottom:0; top:0; background: rgba(0,0,0,0.7); transform: translateY(80%); transition:0.5s;}
+
+.gallery-item:nth-child(1):after{content: '류수정 1ST MINI ALBUM 발매'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:nth-child(2):after{content: '오르골 라이브 류수정'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:nth-child(3):after{content: '지금 방구석! 류수정'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:nth-child(4):after{content: '크리스마스 눕방 라이브 비하인드를 줘요! 줘요!'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:nth-child(5):after{content: 'Lovelyz 2019 시즌 그라팅!'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:nth-child(6):after{content: '겨울나라의 세번째 달콤한 추억'; color: #fff; position: absolute; font-size: 20px; bottom: 20px; left: 20px; transform: translateY(0%); transition:0.5s;}
+
+.gallery-item:hover:before{transform: translateY(75%);}
+.gallery-item:hover:after{transform: translateY(-50%);}
+
+/*비디오*/
+.video{width:100%;}
+
+/*비디오 글자*/
+.video h5{display:block; font-size:90px; font-weight:600; font-family: 'Noto Sans KR', sans-serif; background: linear-gradient(90deg, rgba(120,179,250,1) 0%, rgba(218,247,255,1) 15%); -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
+
+/*비디오 박스*/
+.vider_box{}
+
+/*비디오1*/
+.video_item1{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-left:0;}
+
+.video_item1 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item1 em{color:#f46e15;}
+
+/*비디오2*/
+.video_item2{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem;}
+
+.video_item2 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item2 em{color:#f99cdf;}
+
+/*비디오3*/
+.video_item3{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-right:0;}
+
+.video_item3 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item3 em{color:#b08bff;}
+
+/*비디오4*/
+.video_item4{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-left:0;}
+
+.video_item4 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item4 em{color:#fc4d4d;}
+
+/*비디오5*/
+.video_item5{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem;}
+
+.video_item5 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item5 em{color:#ffd69f;}
+
+/*비디오6*/
+.video_item6{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-right:0;}
+
+.video_item6 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item6 em{color:#7688f9;}
+
+/*비디오7*/
+.video_item7{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-left:0;}
+
+.video_item7 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item7 em{color:#2688ff}
+
+/*비디오8*/
+.video_item8{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem;}
+
+.video_item8 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item8 strong{color:red;}
+
+.video_item8 em{color:#ff9d9d;}
+
+/*비디오9*/
+.video_item9{float:left; width:445px; height:500px; box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4); margin:1rem; margin-right:0;}
+
+.video_item9 p{display:block; margin-top:13px; font-size:15px; font-weight:600; text-align:center;}
+
+.video_item9 em{color:#fb7979;}
+
+.video_item9 strong{color:#78b3fa;}
+
+/*풋터*/
+.footer{display:block; width:100%; background:#333; padding-top:20px;}
+
+/*사이트맵*/
+.sitemap{float:left; transform:translateX(50%);}
+.sitemap li{display:inline-block; margin-right:61px;}
+
+.sitemap li:last-child{margin-right:0;}
+.sitemap li a{display:block; font-size:16px; font-weight:600; color:#fff;}
+
+/*풋터 로고*/
+.footer_logo{width:80px; float:left; margin-bottom:0px;}
+
+/*주소*/
+.address{clear:both; margin-left:330px; transform:translateY(-20px);}
+.address ul{}
+.address ul li{display:inline-block; font-weight:600; color:#555; font-size:12px;}
+.address_box{font-weight:600; color:#555; font-size:12px;}
