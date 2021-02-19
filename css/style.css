@@ -118,15 +118,12 @@
 /*앨범 소제목*/
 .album h3{display:block; font-size:90px; font-weight:600; font-family: 'Noto Sans KR', sans-serif; background: linear-gradient(90deg, rgba(120,201,250,1) 0%, rgba(192,247,255,1) 15%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; margin-left:103px;}
 
-/*버튼*/
-.btn{position:relative; top:450px; left:0; z-index:10;}
-
 /*왼쪽 버튼*/
-.left_btn{position:absolute; border-bottom:2px solid #000; top:0; left:198px;}
+.left_btn{position:absolute; border-bottom:2px solid #000; top:50%; left:10%;}
 .left_btn a{display:block; font-size:25px; font-weight:600; padding-bottom:5px; color:#000;}
 
 /*오른쪽 버튼*/
-.right_btn{position:absolute; border-bottom:2px solid #000; top:0; right:215px;}
+.right_btn{position:absolute; border-bottom:2px solid #000; top:50%; right:10%;}
 .right_btn a{display:block; font-size:25px; font-weight:600; padding-bottom:5px; color:#000;}
 
 /*배경화면 크기*/
@@ -181,9 +178,9 @@
 
 
 /*왼쪽 사진1*/
-.bg1_left{width:625px; position:absolute; top:250px; left:-600px; opacity:0; transition:all 0.5s;}
+.bg1_left{width:33%; position:absolute; top:250px; left:-33%; opacity:0; transition:all 0.5s;}
 
-.bg1_left.active{width:625px; position:absolute; top:250px; left:300px; opacity:1;}
+.bg1_left.active{width:33%; position:absolute; top:250px; left:16%; opacity:1;}
 
 /*왼쪽 사진 제목*/
 .bg1_left p{font-size:30px; font-family:'Fredoka One', cursive; color:#1f4294; margin-bottom:10px;}
@@ -208,9 +205,9 @@
 .name_content li a{display:block; font-size:15px; font-weight:600; color:#1f4294;}
 
 /*오른쪽 설명1*/
-.bg1_right{width:625px; position:absolute; top:300px; right:-600px; opacity:0; transition:all 0.5s;}
+.bg1_right{width:33%; position:absolute; top:300px; right:-33%; opacity:0; transition:all 0.5s;}
 
-.bg1_right.active{width:625px; position:absolute; top:300px; right:300px; opacity:1; transition:all 0.5s;}
+.bg1_right.active{width:33%; position:absolute; top:300px; right:16%; opacity:1; transition:all 0.5s;}
 
 /*오른쪽 내용 설명1 내용*/
 .bg1_right p{font-size:25px; margin-bottom:20px; font-weight:600; color:#1b263f;}
